@@ -1,0 +1,66 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgb(33,122,128);
+    background: linear-gradient(135deg, rgba(33,122,128,1) 0%, rgba(9,9,121,1) 32%, rgba(145,5,183,1) 65%, rgba(0,212,255,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+
+div#gif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 80%;
+    /* background-color:palevioletred; */
+    
+}
+
+form#gifReqForm{
+    margin-bottom: 50px;
+}
+
+input{
+    height: 30px;
+    border-radius: 5px;
+    margin: 0 10px;
+    /* box-shadow: 3px 3px grey; */
+}
+
+#searchBtn, #remove{
+    height: 35px;
+    padding: 5px 10px;
+    margin: 0 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    /* box-shadow: 3px 3px grey; */
+    border-radius: 5px;
+    border: none;
+}
+
+img{
+    margin: 20px;
+    width: 500px;
+    height: 500px;
+}
+
+    
